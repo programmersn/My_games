@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RayoAdventures.Core", "RayoAdventures.Core\RayoAdventures.Core.vcxproj", "{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RayoAdventures.Engine.Kernel", "RayoAdventures.Engine\RayoAdventures.Engine.Kernel\RayoAdventures.Engine.Kernel.vcxproj", "{6AAD3F3B-431A-494F-AA71-5242FB339E0C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B68B89E-B33E-4605-88D4-A4561CE75983} = {7B68B89E-B33E-4605-88D4-A4561CE75983}
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830} = {4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RayoAdventures.Engine.Resources", "RayoAdventures.Engine\RayoAdventures.Engine.Resources\RayoAdventures.Engine.Resources.vcxproj", "{7B68B89E-B33E-4605-88D4-A4561CE75983}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830} = {4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RayoAdventures.Engine", "RayoAdventures.Engine", "{BE4122CB-6070-4560-B5BA-FB69ACBCC719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RayoAdventures.Gameplay", "RayoAdventures.Gameplay", "{2330954B-D6CF-4D5C-B12A-2743EB28CF29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}.Debug|x64.ActiveCfg = Debug|x64
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}.Debug|x64.Build.0 = Debug|x64
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}.Debug|x86.ActiveCfg = Debug|Win32
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}.Debug|x86.Build.0 = Debug|Win32
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}.Release|x64.ActiveCfg = Release|x64
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}.Release|x64.Build.0 = Release|x64
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}.Release|x86.ActiveCfg = Release|Win32
+		{4FD425CC-3A10-4FB2-8495-C8DBE3B9B830}.Release|x86.Build.0 = Release|Win32
+		{6AAD3F3B-431A-494F-AA71-5242FB339E0C}.Debug|x64.ActiveCfg = Debug|x64
+		{6AAD3F3B-431A-494F-AA71-5242FB339E0C}.Debug|x64.Build.0 = Debug|x64
+		{6AAD3F3B-431A-494F-AA71-5242FB339E0C}.Debug|x86.ActiveCfg = Debug|Win32
+		{6AAD3F3B-431A-494F-AA71-5242FB339E0C}.Debug|x86.Build.0 = Debug|Win32
+		{6AAD3F3B-431A-494F-AA71-5242FB339E0C}.Release|x64.ActiveCfg = Release|x64
+		{6AAD3F3B-431A-494F-AA71-5242FB339E0C}.Release|x64.Build.0 = Release|x64
+		{6AAD3F3B-431A-494F-AA71-5242FB339E0C}.Release|x86.ActiveCfg = Release|Win32
+		{6AAD3F3B-431A-494F-AA71-5242FB339E0C}.Release|x86.Build.0 = Release|Win32
+		{7B68B89E-B33E-4605-88D4-A4561CE75983}.Debug|x64.ActiveCfg = Debug|x64
+		{7B68B89E-B33E-4605-88D4-A4561CE75983}.Debug|x64.Build.0 = Debug|x64
+		{7B68B89E-B33E-4605-88D4-A4561CE75983}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B68B89E-B33E-4605-88D4-A4561CE75983}.Debug|x86.Build.0 = Debug|Win32
+		{7B68B89E-B33E-4605-88D4-A4561CE75983}.Release|x64.ActiveCfg = Release|x64
+		{7B68B89E-B33E-4605-88D4-A4561CE75983}.Release|x64.Build.0 = Release|x64
+		{7B68B89E-B33E-4605-88D4-A4561CE75983}.Release|x86.ActiveCfg = Release|Win32
+		{7B68B89E-B33E-4605-88D4-A4561CE75983}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AAD3F3B-431A-494F-AA71-5242FB339E0C} = {BE4122CB-6070-4560-B5BA-FB69ACBCC719}
+		{7B68B89E-B33E-4605-88D4-A4561CE75983} = {BE4122CB-6070-4560-B5BA-FB69ACBCC719}
+	EndGlobalSection
+EndGlobal
